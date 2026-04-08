@@ -1,0 +1,35 @@
+type ProductId = nat;
+type Product = 
+ record {
+   category: Category;
+   description: text;
+   effectDuration: text;
+   id: ProductId;
+   imageUrl: text;
+   inStock: bool;
+   minAge: nat;
+   name: text;
+   packSize: text;
+   price: nat;
+   safetyRating: nat;
+ };
+type Category = 
+ variant {
+   AerialShots;
+   Bombs;
+   FlowerPots;
+   GroundChakkar;
+   Novelty;
+   Rockets;
+   Sparklers;
+ };
+service : {
+  addProduct: (name: text, description: text, price: nat, imageUrl: text,
+   category: Category, packSize: text, effectDuration: text, safetyRating:
+   nat, minAge: nat, inStock: bool) -> (ProductId);
+  getProduct: (id: ProductId) -> (opt Product) query;
+  listByCategory: (category: Category) -> (vec Product) query;
+  listInStock: () -> (vec Product) query;
+  listProducts: () -> (vec Product) query;
+  searchProducts: (term: text) -> (vec Product) query;
+}

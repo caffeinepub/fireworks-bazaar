@@ -1,0 +1,22 @@
+{
+  "overview": "A Diwali fireworks/firecrackers sale catalogue website with product browsing, filtering by category (Sparklers, Rockets, Flower Pots, Ground Chakkar, Aerial Shots, Bombs), product detail pages with safety info, and a shopping cart.",
+  "features": [
+    "Fireworks product catalogue with 12–15 products across 7 categories",
+    "Search, filter by category, and sort by price/name",
+    "Product detail pages with effect duration, safety rating, pack size",
+    "Shopping cart with quantity controls and persistent storage",
+    "Festive Diwali design with warm reds, golds, and oranges",
+    "Responsive layout for mobile and desktop"
+  ],
+  "category": "e-commerce",
+  "tags": [
+    "fireworks",
+    "diwali",
+    "crackers",
+    "pyrotechnics",
+    "catalogue",
+    "e-commerce",
+    "shopping-cart"
+  ],
+  "last_updated": "2026-04-08T16:42:06.690Z"
+}

@@ -1,0 +1,37 @@
+// Version: 1.0.0
+type Category__8224233 =
+  {
+    #AerialShots;
+    #Bombs;
+    #FlowerPots;
+    #GroundChakkar;
+    #Novelty;
+    #Rockets;
+    #Sparklers
+  };
+type Nat__490723111 = Nat__920180692;
+type Nat__920180692 = Nat;
+type ProductId__160010635 = Nat;
+type ProductId__442338476 = ProductId__160010635;
+type Product__750902660 =
+  {
+    category : Category__8224233;
+    description : Text;
+    effectDuration : Text;
+    id : ProductId__442338476;
+    imageUrl : Text;
+    inStock : Bool;
+    minAge : Nat;
+    name : Text;
+    packSize : Text;
+    price : Nat;
+    safetyRating : Nat
+  };
+actor {
+  stable products :
+    {
+      var blockIndex : Nat__490723111;
+      var blocks : [var [var ?Product__750902660]];
+      var elementIndex : Nat__490723111
+    }
+};
