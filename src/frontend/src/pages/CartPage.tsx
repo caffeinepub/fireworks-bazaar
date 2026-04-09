@@ -340,7 +340,7 @@ export function CartPage() {
             </div>
             <div className="flex items-center gap-2 text-muted-foreground">
               <Truck className="w-4 h-4 text-primary shrink-0" />
-              <span>Free delivery all over India</span>
+              <span>Delivery charges to be paid at the time of delivery</span>
             </div>
             <div className="flex items-center gap-2 text-muted-foreground">
               <Phone className="w-4 h-4 text-primary shrink-0" />
@@ -381,7 +381,9 @@ export function CartPage() {
             </div>
             <div className="flex justify-between text-muted-foreground">
               <span>Delivery</span>
-              <span className="text-accent font-medium">Free!</span>
+              <span className="text-foreground font-medium">
+                Paid at Delivery
+              </span>
             </div>
             <div className="flex justify-between text-muted-foreground">
               <span>GST (5%)</span>

@@ -240,7 +240,7 @@ export function CataloguePage() {
           <span className="hidden sm:inline text-primary-foreground/50">|</span>
           <span className="flex items-center gap-1.5">
             <Truck className="w-3.5 h-3.5" />
-            Free Delivery All Over India
+            Delivery Charges Paid at Time of Delivery
           </span>
           <span className="hidden sm:inline text-primary-foreground/50">|</span>
           <span className="flex items-center gap-1.5">
@@ -445,8 +445,8 @@ export function CataloguePage() {
               },
               {
                 icon: "🚚",
-                title: "Free Delivery",
-                desc: "Free delivery all over India on every order",
+                title: "Delivery on Your Doorstep",
+                desc: "Delivery charges applicable — paid at the time of delivery",
               },
               {
                 icon: "🏷️",
